@@ -4,9 +4,10 @@ import Hero from './components/Hero'
 import MembersSection from './components/MembersSection'
 import Navbar from './components/Navbar'
 import NewFeature from './components/NewFeature'
+import PricingCard from './components/PricingCard'
 import Reviews from './components/Reviews'
 import SeoSection from './components/SeoSection'
-import SubscriptionPlan from './components/SubscriptionPlan'
+import Steps from './components/Steps'
 import Video from './components/Video'
 
 
@@ -22,7 +23,8 @@ function App() {
       <Video />
       <NewFeature />
       <Reviews />
-      <SubscriptionPlan />
+      <Steps />
+      <PricingCard />
       <Footer />
     </>
   )
