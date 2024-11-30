@@ -1,6 +1,8 @@
 import React from "react";
 import { User, Sliders, Search, Phone, Divide } from "lucide-react";
 import step from "../assets/Group 4526.png";
+import Button from "./Button";
+
 
 export default function Steps() {
     const steps = [
@@ -49,6 +51,10 @@ export default function Steps() {
                     </div>
 
                 ))}
+
+            </div>
+            <div className="flex justify-center items-center my-10">
+                <Button label={'Register Free'} className={"bg-custom-linear-3 rounded-full p-4 text-white "}    />
 
             </div>
         </>
